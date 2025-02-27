@@ -1,0 +1,46 @@
+{
+  "expo": {
+    "name": "Velasa Trading",
+    "slug": "velasa-trading",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "../generated-icon.png",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "image": "../generated-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0E1117"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0,
+      "url": "https://u.expo.dev/your-project-id"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.jrpgroups.velasatrading"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "../generated-icon.png",
+        "backgroundColor": "#0E1117"
+      },
+      "package": "com.jrpgroups.velasatrading",
+      "versionCode": 1,
+      "permissions": [
+        "INTERNET",
+        "ACCESS_NETWORK_STATE",
+        "RECEIVE_SMS",
+        "READ_SMS"
+      ]
+    },
+    "extra": {
+      "eas": {
+        "projectId": "jrpgroups-velasa-trading"
+      }
+    },
+    "owner": "jrpgroups"
+  }
+}

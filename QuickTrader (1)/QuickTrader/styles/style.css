@@ -1,0 +1,43 @@
+/* Main theme */
+.stApp {
+    background-color: #0E1117;
+}
+
+/* Login container */
+.login-container {
+    background-color: #1A1C24;
+    padding: 2rem;
+    border-radius: 10px;
+    border: 1px solid #FFD700;
+    text-align: center;
+    margin: 2rem 0;
+}
+
+/* Buttons */
+.stButton button {
+    background-color: #FFD700 !important;
+    color: #0E1117 !important;
+    font-weight: bold !important;
+    border: none !important;
+    padding: 0.5rem 2rem !important;
+    border-radius: 5px !important;
+}
+
+/* Metrics */
+.stMetric {
+    background-color: #1A1C24;
+    padding: 1rem;
+    border-radius: 5px;
+    border: 1px solid #2C2C2C;
+}
+
+/* Tables */
+.dataframe {
+    background-color: #1A1C24 !important;
+    border: 1px solid #2C2C2C !important;
+}
+
+/* Sidebar */
+.css-1d391kg {
+    background-color: #1A1C24;
+}

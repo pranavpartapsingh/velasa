@@ -1,0 +1,23 @@
+{
+    "app": {
+        "name": "Velasa Trading",
+        "version": "1.0.0",
+        "company": "JRP GROUPS OF INDUSTRIES",
+        "package": "com.jrpgroups.velasa"
+    },
+    "build": {
+        "outputDir": "dist",
+        "androidDir": "android",
+        "assets": {
+            "icon": "assets/icon.png",
+            "splash": "assets/splash.png"
+        }
+    },
+    "playStore": {
+        "targetSdk": 33,
+        "minSdk": 21,
+        "versionCode": 1,
+        "category": "Finance",
+        "contentRating": "Everyone"
+    }
+}
